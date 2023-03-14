@@ -20,6 +20,8 @@ public class HelloController {
     }
     @GetMapping("hello/{id}")
     public Student hello(@PathVariable(value = "id") Integer id){
+        System.out.println("中国人民解放军");
+        System.out.println("中国人民解放军");
         return studentServlet.getStudentById(id);
 
     }
