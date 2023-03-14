@@ -23,6 +23,5 @@ public class HelloController {
         System.out.println("中国人民解放军");
         System.out.println("中国人民解放军");
         return studentServlet.getStudentById(id);
-
     }
 }
