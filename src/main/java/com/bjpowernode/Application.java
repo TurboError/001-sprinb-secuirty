@@ -10,6 +10,8 @@ import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 public class Application {
 
     public static void main(String[] args) {
+            System.out.println("桂林市 桂林米粉");
+
         SpringApplication.run(Application.class, args);
     }
 }
